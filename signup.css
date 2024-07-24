@@ -1,0 +1,56 @@
+body{
+    background-image: url("todo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: #333;
+    color: #fff;
+    font-family: Arial, sans-serif;
+
+}
+form{
+            justify-content: space-evenly   ;
+            align-items: center;
+            padding: 20px;
+            border-radius: 25px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            color: #000;
+            width: 600px;
+            backdrop-filter: blur(10px);
+            justify-content: s;
+}
+.signup-form h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+.signup-form input[type="text"],
+.signup-form input[type="email"],
+.signup-form input[type="password"],
+.signup-form input[type="date"] {
+    width: 50%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    backdrop-filter: blur(10px);
+    align-items: center;
+    justify-content:space-evenly;
+    
+}
+.signup-form button {
+    backdrop-filter: blur(10px);
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+    font-size: 16px;
+    padding-right: 100px;
+}
+.signup-form button:hover {
+    background-color: #555;
+}
